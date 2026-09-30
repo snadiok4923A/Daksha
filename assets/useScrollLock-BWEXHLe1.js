@@ -1,0 +1,1 @@
+import{i as e,s as t}from"./cn-C3tS2b_w.js";var n=t(e(),1),r=0,i=``;function a(e){(0,n.useEffect)(()=>{if(e)return r===0&&(i=document.body.style.overflow,document.body.style.overflow=`hidden`),r+=1,()=>{--r,r===0&&(document.body.style.overflow=i)}},[e])}export{a as t};

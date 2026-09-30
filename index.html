@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Daksha/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content="SkillRank analyzes your skills, projects, experience and professional presence for the career you want - with a transparent, explainable score." />
+    <meta name="theme-color" content="#F8FAFC" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B0F14" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <title>SkillRank - Know where you stand. Know what to improve.</title>
+    <script>
+      // Apply the persisted theme before first paint to avoid a flash of the wrong theme.
+      ;(function () {
+        try {
+          var pref = localStorage.getItem('skillrank:theme') || 'system'
+          var dark = pref === 'dark' || (pref === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+          var root = document.documentElement
+          if (dark) root.classList.add('dark')
+          root.style.colorScheme = dark ? 'dark' : 'light'
+        } catch (e) {}
+      })()
+    </script>
+    <script type="module" crossorigin src="/Daksha/assets/index-xJp88IcD.js"></script>
+    <link rel="modulepreload" crossorigin href="/Daksha/assets/cn-C3tS2b_w.js">
+    <link rel="modulepreload" crossorigin href="/Daksha/assets/storage-WghsNBca.js">
+    <link rel="modulepreload" crossorigin href="/Daksha/assets/community-DudWDLMp.js">
+    <link rel="modulepreload" crossorigin href="/Daksha/assets/ProfileContext-x1bxVva5.js">
+    <link rel="stylesheet" crossorigin href="/Daksha/assets/index-D4Il9QAE.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>SkillRank needs JavaScript to run. Please enable it in your browser.</noscript>
+  </body>
+</html>

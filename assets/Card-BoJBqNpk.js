@@ -1,0 +1,1 @@
+import{r as e,t}from"./cn-C3tS2b_w.js";var n=e();function r({children:e,hover:r=!1,glass:i=!1,className:a=``,...o}){return(0,n.jsx)(`div`,{className:t(`rounded-2xl border border-line bg-surface p-6 shadow-card transition-all duration-200`,r&&`card-hover cursor-pointer`,i&&`glass`,a),...o,children:e})}export{r as t};

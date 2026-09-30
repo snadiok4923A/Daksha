@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# build output
+dist
+.build-check*
+.qa
+
+# logs & local env
+*.log
+.env
+.env.*
+!.env.example
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
