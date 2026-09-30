@@ -1,0 +1,19 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["src/data/roles/skillLibrary.js", "src/data/roles/roles.js", "src/data/roles/roadmaps.js"],
+      "options": { "printWidth": 420, "objectWrap": "collapse" }
+    },
+    {
+      "files": ["src/index.css"],
+      "options": { "printWidth": 160 }
+    }
+  ]
+}
